@@ -18,7 +18,9 @@ h2{
 
 body{
     /* background-image: url(try.jpg); */
-    background-color: #FAF0E4;
+/*     background-color: #FAF0E4; */
+    background: 
+    linear-gradient(to right, #7F7FD5 , #91EAE4);
     
     
 }
