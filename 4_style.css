@@ -16,12 +16,9 @@ h2{
 }
 
 
-body{
-    /* background-image: url(try.jpg); */
-    /* background-color: #FAF0E4; */
-    /* background: linear-gradient(135deg, #007B7F, #FF6B6B); */
+body{]
     background: linear-gradient(135deg, #A79BAC, #283149);
-        /* linear-gradient(to right, #7F7FD5 , #91EAE4); */
+    
 
     
     
@@ -57,15 +54,14 @@ p{
 div{
     height: 200px;
     width:900px;
-    /* background-color:#fa8959; */
-    background: linear-gradient(to top,#de6262 ,   #ffb88c
-    );
+    
+    background: linear-gradient(to top,#de6262 , #ffb88c);
     transition:1s;
     margin:0 auto;
     
 }
 div:hover{
-    /* background-color:#9BCDD2; */
+   
     background:linear-gradient(to bottom,rgb(255, 235, 138) , rgb(246, 182, 62));
     border-radius:100px;
 }
