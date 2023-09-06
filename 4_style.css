@@ -16,16 +16,14 @@ h2{
 }
 
 
-body{]
+body{
+   
     background: linear-gradient(135deg, #A79BAC, #283149);
-    
-
-    
-    
+            
 }
 a{
     text-decoration: none;
-    color:rgb(16, 62, 154)
+    color:rgb(16, 62, 154);
 }
 
 
@@ -54,14 +52,14 @@ p{
 div{
     height: 200px;
     width:900px;
-    
-    background: linear-gradient(to top,#de6262 , #ffb88c);
+    /* background-color:#fa8959; */
+    background: linear-gradient(to top,#de6262 ,   #ffb88c  );
     transition:1s;
     margin:0 auto;
     
 }
 div:hover{
-   
+    /* background-color:#9BCDD2; */
     background:linear-gradient(to bottom,rgb(255, 235, 138) , rgb(246, 182, 62));
     border-radius:100px;
 }
