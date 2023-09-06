@@ -18,9 +18,11 @@ h2{
 
 body{
     /* background-image: url(try.jpg); */
-/*     background-color: #FAF0E4; */
-    background: 
-    linear-gradient(to right, #7F7FD5 , #91EAE4);
+    /* background-color: #FAF0E4; */
+    /* background: linear-gradient(135deg, #007B7F, #FF6B6B); */
+    background: linear-gradient(135deg, #A79BAC, #283149);
+        /* linear-gradient(to right, #7F7FD5 , #91EAE4); */
+
     
     
 }
@@ -38,13 +40,14 @@ h3:hover{
     border-width:"2px";
     border-style:dashed;
     border-color:darkslategray;
-    background-color:#9BCDD2;
+    background-color:#fff175;
     transition:0.8s;
     color:rgb(15, 98, 126);
+    border-radius: 25px 25px 25px 25px;
     
 }
 p{
-    color:rgb(15, 98, 126);
+    color:rgb(255, 239, 114);
 }
 
 .point {
@@ -54,13 +57,16 @@ p{
 div{
     height: 200px;
     width:900px;
-    background-color:#fa8959;
+    /* background-color:#fa8959; */
+    background: linear-gradient(to top,#de6262 ,   #ffb88c
+    );
     transition:1s;
     margin:0 auto;
     
 }
 div:hover{
-    background-color:#9BCDD2;
+    /* background-color:#9BCDD2; */
+    background:linear-gradient(to bottom,rgb(255, 235, 138) , rgb(246, 182, 62));
     border-radius:100px;
 }
 h3:hover{
@@ -70,12 +76,29 @@ h3:hover{
 }
 
 h4{
-    color:rgb(15, 98, 126);
+    color:rgb(255, 239, 114);
+    
 }
 
 img{
     position:relative;
     left:480px;
     border-radius: 50%;
-    box-shadow:2px 2px 10px #9BCDD2;
+    box-shadow:4px 4px 15px rgb(250, 205, 205);
+    transition: 0.3s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+.head{
+    text-align: center;
+    font-size: 20px;
+    transform: scale(0.8);
+    animation: zoomIn 1s ease-in-out forwards;
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.8); }
+    to { transform: scale(1); }
 }
