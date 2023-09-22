@@ -1,9 +1,9 @@
 h2{
     text-align:center;
     color:rgb(15, 98, 126);
-    letter-spacing: 5px;
-    font-weight:600;
-    font-family:fantasy;
+    /* letter-spacing: 5px; */
+    font-weight:1600;
+    /* font-family:fantasy; */
     
     font-size:xx-large;
     text-decoration: underline;
@@ -17,13 +17,20 @@ h2{
 
 
 body{
-   
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background-image: url(try.jpg); */
+    /* background-color: #FAF0E4; */
+    /* background: linear-gradient(135deg, #007B7F, #FF6B6B); */
     background: linear-gradient(135deg, #A79BAC, #283149);
-            
+        /* linear-gradient(to right, #7F7FD5 , #91EAE4); */
+
+    
+    
 }
 a{
     text-decoration: none;
-    color:rgb(16, 62, 154);
+    color:rgb(16, 62, 154)
 }
 
 
@@ -53,7 +60,8 @@ div{
     height: 200px;
     width:900px;
     /* background-color:#fa8959; */
-    background: linear-gradient(to top,#de6262 ,   #ffb88c  );
+    background: linear-gradient(to top,#de6262 ,   #ffb88c
+    );
     transition:1s;
     margin:0 auto;
     
@@ -70,7 +78,7 @@ h3:hover{
 }
 
 h4{
-    color:rgb(255, 239, 114);
+    color:rgb(252, 236, 219);
     
 }
 
